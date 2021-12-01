@@ -3,6 +3,7 @@ import "./App.css";
 import Carousel from "./components/carousel/carousel";
 
 //Components
+import Carousel from "./components/carousel/carousel";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
 
@@ -11,7 +12,6 @@ function App() {
     <div className="App">
       <Header />
       <Carousel />
-
       <Jumbotron />
     </div>
   );
