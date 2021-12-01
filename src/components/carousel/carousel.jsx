@@ -1,6 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import imgC1 from '../../assets/logos/Banner1.png';
+import imgC2 from '../../assets/logos/Banner2.png';
+import imgC3 from '../../assets/logos/Banner3.png';
 
 export default class carousel extends React.Component {
     constructor(props) {
@@ -24,7 +26,7 @@ export default class carousel extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
+                        src={imgC2}
                         alt="Second slide"
                     />
 
@@ -36,7 +38,7 @@ export default class carousel extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        src={imgC3}
                         alt="Third slide"
                     />
 
