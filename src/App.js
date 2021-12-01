@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import Carousel from "./components/carousel/carousel";
+
 
 //Components
 import Carousel from "./components/carousel/carousel";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Carousel />
       <Jumbotron />
+      <Footer />
     </div>
   );
 }

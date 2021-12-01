@@ -1,4 +1,6 @@
 import React from 'react';
+import LogoFooter from '../../assets/logos/logo-dulces-suenos.png';
+import './Footer.css'
 
 export default class footer extends React.Component {
     constructor(props) {
@@ -10,34 +12,34 @@ export default class footer extends React.Component {
 
             // PIE DE PAGINA
             <footer id="footer">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <!-- logo-->
-                        <a href="#" class="col-2 text-reset text-uppercase d-flex align-items-center">
-                            <img src="logos/logo-dulces-suenos.png" alt="logo dulces sueños" width="90">
+                <div className="container">
+                    <nav className="navbar navbar-expand-lg navbar-light">
+                        {/* <!-- logo--> */}
+                        <a href="#" className="col-2 text-reset text-uppercase d-flex align-items-center">
+                            <img src={LogoFooter} alt="logo dulces sueños" width="90"/>
                         </a>
         
         
-                        <!-- Datos basicos-->
-                        <ul class="col-6 list-unstyled ">
-                            <li class="font-weight-bold text-uppercase">¿Dónde encontrarnos?</li>
-                            <li><a class="text-reset">Dirección: Carrera 73 #41-43, Bogotá.</a></li>
-                            <li><a class="text-reset">Telefono: 316 872 74 90</a></li>
+                        {/* <!-- Datos basicos--> */}
+                        <ul className="col-6 list-unstyled ">
+                            <li className="font-weight-bold text-uppercase">¿Dónde encontrarnos?</li>
+                            <li><a className="text-reset">Dirección: Carrera 73 #41-43, Bogotá.</a></li>
+                            <li><a className="text-reset">Telefono: 316 872 74 90</a></li>
                         </ul>
         
                         {/* //redes sociales */}
-                        <ul class="col-3 list-unstyled container-redes-sociales">
-                            <li class="font-weight-bold text-uppercase">Redes sociales</li>
-                            <li class="justify-content-between">
-                                <!--FB-->
+                        <ul className="col-3 list-unstyled container-redes-sociales">
+                            <li className="font-weight-bold text-uppercase">Redes sociales</li>
+                            <li className="justify-content-between">
+                                {/* <!--FB--> */}
                                 <a href="https://www.facebook.com/Reposter%C3%ADa-dulces-sue%C3%B1os-105822964812543"
-                                    target="_blank" class="text-reset">
-                                    <i class="fa fa-facebook-official"></i>
+                                    target="_blank" className="text-reset">
+                                    <i className="fa fa-facebook-official"></i>
                                 </a>
-                                <!--insta-->
+                                {/* <!--insta--> */}
                                 <a href="https://www.instagram.com/resposteria_dulcessuenos/?hl=es-la" target="_blank"
-                                    class="text-reset">
-                                    <i class="fa fa-instagram"></i>
+                                    className="text-reset">
+                                    <i className="fa fa-instagram"></i>
                                 </a>
                             </li>
                         </ul>
