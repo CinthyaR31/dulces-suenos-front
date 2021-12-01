@@ -10,21 +10,7 @@ footer {
   background: #f7ebed;
 }
 
-#container-jumbotron {
-  background: #f7ebed;
-}
 
-<<<<<<< HEAD
-#boton_jumbotron{
-    background: #f1b0b7;
-    border: transparent;
-=======
-#boton_jumbotron {
-  background: #f1b0b7;
-  border: transparent;
-  font-palette: dark;
->>>>>>> 73e3b394062301cd54fbd6ef09226e8c32933898
-}
 
 ul.container-redes-sociales li i {
   font-size: 2em;
