@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoFooter from '../../assets/logos/logo-dulces-suenos.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Footer.css'
 
 export default class footer extends React.Component {
@@ -33,13 +34,13 @@ export default class footer extends React.Component {
                             <li className="justify-content-between">
                                 {/* <!--FB--> */}
                                 <a href="https://www.facebook.com/Reposter%C3%ADa-dulces-sue%C3%B1os-105822964812543"
-                                    target="_blank" className="text-reset">
-                                    <i className="fa fa-facebook-official"></i>
+                                    target="_blank" className="text-reset mr-3">
+                                    <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
                                 </a>
                                 {/* <!--insta--> */}
                                 <a href="https://www.instagram.com/resposteria_dulcessuenos/?hl=es-la" target="_blank"
                                     className="text-reset">
-                                    <i className="fa fa-instagram"></i>
+                                    <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
                                 </a>
                             </li>
                         </ul>
