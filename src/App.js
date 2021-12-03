@@ -7,6 +7,7 @@ import Carousel from "./components/carousel/carousel";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
 import Footer from "./components/Footer/Footer";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Carousel />
       <Jumbotron />
+      <Formulario />
       <Footer />
     </div>
   );
