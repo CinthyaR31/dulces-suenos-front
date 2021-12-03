@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 
-
 //Components
 import Carousel from "./components/carousel/carousel";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
+import CardContainer from "./components/CardContainer";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Header />
       <Carousel />
       <Jumbotron />
+      <CardContainer />
     </div>
   );
 }

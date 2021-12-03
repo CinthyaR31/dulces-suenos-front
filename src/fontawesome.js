@@ -7,6 +7,7 @@ import {
   faFacebook,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faExternalLinkAlt, faTiktok, faFacebook, faInstagram);
