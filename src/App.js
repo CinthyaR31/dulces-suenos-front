@@ -6,6 +6,8 @@ import Carousel from "./components/carousel/carousel";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
 import CardContainer from "./components/CardContainer";
+import Footer from "./components/Footer/Footer";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Carousel />
       <Jumbotron />
       <CardContainer />
+      <Formulario />
+      <Footer />
     </div>
   );
 }
