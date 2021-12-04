@@ -1,0 +1,9 @@
+.bg-color-menu {
+  background-color: #f7ebed !important;
+}
+
+.Card_Container{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
