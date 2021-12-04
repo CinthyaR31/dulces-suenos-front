@@ -1,12 +1,11 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import axios from "axios";
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 
-const REACT_URL = 'http://localhost:3000/dulces-suenos/';
+const REACT_URL = process.env.REACT_APP_URL;
 
 export default class autenticacion extends React.Component {
 
