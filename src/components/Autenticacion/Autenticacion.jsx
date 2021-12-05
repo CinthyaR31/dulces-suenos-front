@@ -125,7 +125,7 @@ export default class autenticacion extends React.Component {
             this.guardarSesionLocal(usuario);
             this.setState({usuario: usuario})
         }).catch(error => {
-            alert("Email ya esta en usp");
+            alert("Email ya esta en uso");
         })
     }
 
