@@ -17,7 +17,7 @@ export default function CardContainer() {
             <div className="col-12 mb-2">
                 <h2 className="text-center">Nuestras especialidades</h2>
             </div>
-            <div className="row justify-content-center">
+            <div className="card-group justify-content-center">
                 <Card img={product1} title="Tortas" description="Torta ligera y esponjosa con relleno frutal" button="Ver detalle" />
                 <Card img={product2} title="Cupcakes" description="Pequeñas tortas con rellenos frutales y decorados con crema chantilly" button="Ver detalle" />
                 <Card img={product3} title="Postres Entremet" description="Suave mousse con rellenos frutales sobre una capa de bizcochuelo y una crujiente galleta" button="Ver detalle" />
