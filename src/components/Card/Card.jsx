@@ -13,9 +13,6 @@ export default function Card(props) {
             <div class="card-body">
                 <h5 class="card-title text-center">{title}</h5>
                 <p class="card-text text-center">{description}</p>
-                <button class="btn btn-outline-primary" data-toggle="modal"
-                    data-target="#exampleModal">{button}
-                </button>
             </div>
         </div>
     )

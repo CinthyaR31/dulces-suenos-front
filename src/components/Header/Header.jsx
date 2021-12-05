@@ -1,7 +1,9 @@
 import React from 'react'
 import img from '../../assets/images/logo.png';
+import Autenticacion from "../Autenticacion/Autenticacion";
 
 import './Header.css';
+import Home from "../../pages/home/home";
 
 export default function Header() {
 
@@ -26,6 +28,8 @@ export default function Header() {
                     <li className="nav-item"><a className="nav-link" href="/#footer">Contacto</a></li>
                 </ul>
             </div>
+
+            <Autenticacion />
         </nav>
     )
 }
