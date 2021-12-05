@@ -4,21 +4,19 @@ import React from "react";
 import Carousel from "../../components/carousel";
 import Header from "../../components/Header";
 import Jumbotron from "../../components/Jumbotron";
-import CardContainer from "../../components/CardContainer";
 import Footer from "../../components/Footer/Footer";
 import Formulario from "../../components/Formulario";
 
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <Header />
       <Carousel />
       <Jumbotron />
-      <CardContainer />
       <Formulario />
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default Home;
